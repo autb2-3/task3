@@ -15,6 +15,7 @@ if memo_type == "1"
    
   memo = readlines
    
+   
   CSV.open("#{file_name}.csv",'w') do |csv|
      
     csv.puts["#{memo}"]
